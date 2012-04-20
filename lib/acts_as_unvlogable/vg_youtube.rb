@@ -20,7 +20,7 @@ class VgYoutube
   end
   
   def thumbnail
-    @details.thumbnails.zero.url
+    @details.thumbnails.hqdefault.url
   end
   
   def duration
